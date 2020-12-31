@@ -2,14 +2,15 @@ import firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
 
+// updated with bryant's credentials
 const config = {
-  apiKey: 'AIzaSyCdHT-AYHXjF7wOrfAchX4PIm3cSj5tn14',
-  authDomain: 'crwn-db.firebaseapp.com',
-  databaseURL: 'https://crwn-db.firebaseio.com',
-  projectId: 'crwn-db',
-  storageBucket: 'crwn-db.appspot.com',
-  messagingSenderId: '850995411664',
-  appId: '1:850995411664:web:7ddc01d597846f65'
+  apiKey: "AIzaSyAcFSOfvB_gqrwNQUN7YqKwdzYdHq5RAeE",
+  authDomain: "authdb-141b2.firebaseapp.com",
+  databaseURL: "https://authdb-141b2.firebaseio.com",
+  projectId: "authdb-141b2",
+  storageBucket: "authdb-141b2.appspot.com",
+  messagingSenderId: "187774266974",
+  appId: "1:187774266974:web:132177a2dfc5ced4d0cecf"
 };
 
 firebase.initializeApp(config);
